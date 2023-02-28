@@ -29,9 +29,7 @@ body{
     font-size: 1rem;
     cursor: pointer;
 }
-.procurar button:hover{
-    color: black;
-}
+
 
 .button{
     width: 100%;
@@ -43,6 +41,11 @@ body{
     color: #ffff;
     background-color: #d3ab28;
     border:#d3ab28;
+}
+
+button:hover{
+    color: #d3ab28;
+    background-color: #fff;
 }
 .resultado-texto{
     font-size: 1.2rem;
