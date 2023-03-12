@@ -1,0 +1,55 @@
+body{
+    font-family: 'Source Code Pro', monospace;
+    margin-left: 35%;
+}
+
+.titulo{
+    margin-left: 4.2%;
+}
+
+.titulo_aluno{
+    font-size: 1.2rem;
+}
+
+.orientacao{
+    font-size: 0.7rem;
+    color: #d3ab28;
+    margin-top: auto;
+    margin-left: 23.2%;
+}
+.procurar button{
+    font-family: 'Source Code Pro', monospace;
+    width: 85px;
+    height: 30px;
+    margin-left: 10px;
+    border: 0;
+    border-radius: 8px;
+    background-color: #d3ab28;
+    color: #fff;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+
+.button{
+    width: 100%;
+    max-width: 200px;
+    min-height: 50px;
+    border-radius: 15px;
+    margin-top: 1%;
+    margin-left: 3.5%;
+    color: #ffff;
+    background-color: #d3ab28;
+    border:#d3ab28;
+}
+
+button:hover{
+    color: #d3ab28;
+    background-color: #fff;
+}
+.resultado-texto{
+    font-size: 1.2rem;
+    color: #333;
+    text-align: left;
+    margin: 20px 0;
+} 
