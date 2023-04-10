@@ -1,0 +1,82 @@
+body{
+    font-family: 'Source Code Pro', monospace;
+    
+}
+
+.container{
+    margin-top: 4%;
+    margin-left: 24%;
+	height: 800px;	
+	width: 970px;
+    border-radius: 18%; 	
+	background: #20B2AA;  	 
+}
+
+.titulo{
+    text-align: center;
+    padding-top: 5%;
+    font-size: 200%;
+}
+
+.titulo_tabela{
+    font-size: 130%;
+    font-weight: bold;
+    text-align: center;
+    margin-top:5%;
+}
+
+.conteudo{
+    align-items: center;
+    text-align: center;
+    color: black;
+    text-align: justify;
+    margin-left:8%;
+    margin-right: 8%;
+    font-size: 100%;
+}
+
+.texto{
+    color: white;
+} 
+
+.tabela{
+    color:white;
+    border-collapse: collapse;
+    border: 1px solid black;
+    border-radius: 60%;
+}
+td,tr {
+    padding: 10px;
+    text-align: justify;
+}
+th {
+    text-align: center;
+}
+
+tr:hover:nth-child(1n+1) {
+    background-color: #fff;
+    color: #066863;
+}
+.btnClick{
+    background-color: #4baca7;
+    border: #fff;
+    border-radius: 10%;
+    width: 240px;
+    height: 44px;
+}
+
+.btnVoltar{
+    background-color:rgb(237, 31, 31);
+    border: #fff;
+    border-radius: 10%;
+    width: 100px;
+    height: 40px;
+}
+
+button{
+    background-color: white;
+    border: #fff;
+    border-radius: 10%;
+    width: 80px;
+    height: 20px;
+}
