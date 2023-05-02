@@ -99,7 +99,16 @@ listaTags[17].classList.add('conteudo')
 listaTags[0].appendChild(listaTags[18])
 listaTags[18].classList.add('conteudo')
 
+//Data
+listaTags[0].appendChild(listaTags[19])
+listaTags[19].classList.add('data')
 
+function criarTags(tag){
+    let novaTag = document.createElement(tag)
+    return novaTag
+}
+
+//Botão Imprimir
 var botao = document.createElement('input')
 botao.classList.add('btn')
 botao.type = 'button'
@@ -112,13 +121,3 @@ botao.onclick =() => {
 }
 
 body.appendChild(botao)
-
-
-//Data
-listaTags[0].appendChild(listaTags[19])
-listaTags[19].classList.add('data')
-
-function criarTags(tag){
-    let novaTag = document.createElement(tag)
-    return novaTag
-}
