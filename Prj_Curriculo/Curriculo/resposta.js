@@ -11,6 +11,7 @@ const formacao = urlParams.get("formacao")
 const expProfissional = urlParams.get("expProfissional")
 const infoComplementar = urlParams.get("infoComplementar")
 const idiomas = urlParams.get("idiomas")
+const foto = urlParams.get("foto")
 
 let tags = ['div', 'div', 'h1', 'h2', 'h2','h2'
 ,'h2','h3','p','h3','p','h3','p','h3'
