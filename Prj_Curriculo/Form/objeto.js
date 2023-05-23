@@ -102,7 +102,7 @@ export default function construirTela(){
     listaTags[23].classList.add('input_Dados')
 
     listaTags[15].appendChild(listaTags[24])
-    listaTags[24].classList.add('label_Dados')
+    listaTags[24].classList.add('label_DadosInfo')
 
     listaTags[15].appendChild(listaTags[25])
     listaTags[25].classList.add('txt_DadosInfo')
