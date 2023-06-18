@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src='https://code.jquery.com/jquery-2.2.4.min.js'></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"
+        integrity="sha512-CNgIRecGo7nphbeZ04Sc13ka07paqdeTu0WR1IM4kNcpmBAUSHSQX0FslNhTDadL4O5SAGapGt4FodqL8My0mA=="
+        crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jost&display=swap" rel="stylesheet">
+    <title>MYQRCODE</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <img src="img/qrcode.png" class="img-logo">
+    <div class="container">
+        <div class="tittle">
+            <h1>Crie os seus próprios códigos QR e impulsione o seu negócio ou ideia.</h1>
+            <img src="img/qr.webp" class="img-qr">
+        </div>
+        <div class="qr-code-generator">
+            <div>
+                <h2>Insira a URL para gerar o QR CODE</h2>
+                <input type="text" class="qr-url" placeholder="Insira aqui">
+                <button class="gerar-qrcode">Gerar Qr Code</button>
+            </div>
+
+            <div id="qrcode" style="margin-top: 50px;margin-left: auto; margin-right: auto;"></div>
+        </div>
+</div>
+
+
+<div id="qrcode"></div>
+
+<script src="js/index.js"></script>
+</body>
+</html>

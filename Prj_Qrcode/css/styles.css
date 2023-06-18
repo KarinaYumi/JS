@@ -1,0 +1,95 @@
+body{
+    font-family: 'Jost', sans-serif;;
+}
+.container{
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    align-self: last baseline;
+}
+
+.tittle{
+    margin-left: 3%;
+    width: 50%;
+    text-align: center;
+    margin-top: 2%;
+    font-size: 150%;
+}
+.img-qr{
+    width: 60%;
+    height: 70%;
+}
+h1{
+    font-size: 35px;
+    text-align: center;
+}
+
+h2{
+    text-align: center;
+    color: white;
+    font-size: 30px;
+}
+
+.img-logo{
+    width: 10%;
+}
+.qr-code-generator {
+    height: 560px;
+    align-items: center;
+    background: #0f18c2;
+    margin: 0 auto;
+    margin-right: 5%;
+    margin-top: 5%;
+    margin-left: 5%;
+    width: 850px;
+    border-radius: 7px;
+    padding: 26px 55px;
+    transition: height 0.5s ease;
+}
+
+.qr-url{
+    width: 80%;
+    height: 40px;
+    background-color: white;
+    font-size: 18px;
+    text-align: center;
+    border-radius: 5px;
+    margin-left: 10%;
+    border: none;
+    color: #000000;
+}
+
+input:focus, select:focus {
+    box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0;
+}
+
+
+.form button{
+    cursor: pointer;
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 20px;
+    font-size: 20px;
+    color: #0f18c2;
+    background: #fff;
+}
+
+#qrcode {
+    width: 228px;
+    height: 228px;
+}
+
+.gerar-qrcode {
+    width: 40%;
+    height: 40px;
+    margin: 0.8em 0 0;
+    margin-left: 30%;
+    font-size:1.2em;
+    cursor: pointer;
+    border-radius: 8px;
+    border: none;
+    background-color: white;
+    color: #0f18c2;
+}
