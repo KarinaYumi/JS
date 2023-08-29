@@ -17,8 +17,8 @@ body {
 
 .container {
     margin-top: 1%;
-    background-color: #0D1F5D;
-    max-width: 800px; 
+    background-color: #151D3B;
+    max-width: 900px; 
     width: 90%;
     height: auto;
     margin-bottom: 3%;
@@ -33,14 +33,14 @@ body {
 
 .img {
     width: 100%;
-    max-width: 400px;
+    max-width: 450px;
     margin: 20px auto;
 }
 
 .org {
     width: 90%;
     max-width: 600px;
-    background-color: #85092E;
+    background-color: #D82148;
     border-radius: 47px;
     border: 1px solid #000;
     display: flex;
@@ -74,7 +74,7 @@ button {
     width: 40%;
     max-width: 160px;
     border-radius: 15px;
-    background-color: #A00B38;
+    background-color: #D82148;
     color: aliceblue;
     cursor: pointer;
     display: block; 
@@ -83,7 +83,7 @@ button {
 
 
 button:hover {
-    background-color: #ff0048;
+    background-color: #ff0048a1;
 }
 
 .parag {
